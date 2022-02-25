@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['pi',['PI',['../group___math.html#ga598a3330b3c21701223ee0ca14316eca',1,'PI():&#160;FFT.h'],['../group___math.html#ga598a3330b3c21701223ee0ca14316eca',1,'PI():&#160;odometry.h']]],
+  ['power',['power',['../structbmi160__cfg.html#ae4e2435f6842b9dc5bf5c5a09a6374ca',1,'bmi160_cfg']]],
+  ['preset_5fmode',['preset_mode',['../structbmm150__settings.html#a343997e5b643c90e05ea1578114db37c',1,'bmm150_settings']]],
+  ['prev_5faccel_5fcfg',['prev_accel_cfg',['../structbmi160__dev.html#abfdae354e2aba360960ee99483ab72c9',1,'bmi160_dev']]],
+  ['prev_5faux_5fcfg',['prev_aux_cfg',['../structbmi160__dev.html#a9301012c9ebf591e8bae1c85e5999644',1,'bmi160_dev']]],
+  ['prev_5fgyro_5fcfg',['prev_gyro_cfg',['../structbmi160__dev.html#ad5928a86f8c18cf9f6e9a6a2a912419c',1,'bmi160_dev']]],
+  ['pt',['pt',['../structcharacteristics.html#a757dc8b50cebbb66b1727de65efb1d87',1,'characteristics::pt()'],['../struct_notify_characteristics.html#a757dc8b50cebbb66b1727de65efb1d87',1,'NotifyCharacteristics::pt()']]],
+  ['pwm_2eh',['PWM.h',['../_p_w_m_8h.html',1,'']]],
+  ['pwm_5fduty1',['PWM_Duty1',['../group___timer.html#gae25a5246037006a691d27dd40d91282a',1,'PWM_Duty1(uint16_t duty1):&#160;PWM.c'],['../group___timer.html#gae25a5246037006a691d27dd40d91282a',1,'PWM_Duty1(uint16_t duty1):&#160;PWM.c']]],
+  ['pwm_5fduty2',['PWM_Duty2',['../group___timer.html#ga0c452e91e79d683b80169b2286ac606e',1,'PWM_Duty2(uint16_t duty2):&#160;PWM.c'],['../group___timer.html#ga0c452e91e79d683b80169b2286ac606e',1,'PWM_Duty2(uint16_t duty2):&#160;PWM.c']]],
+  ['pwm_5fduty3',['PWM_Duty3',['../group___timer.html#gab2ebe175ab9a4f725f311aecd0440a4f',1,'PWM_Duty3(uint16_t duty3):&#160;PWM.c'],['../group___timer.html#gab2ebe175ab9a4f725f311aecd0440a4f',1,'PWM_Duty3(uint16_t duty3):&#160;PWM.c']]],
+  ['pwm_5fduty4',['PWM_Duty4',['../group___timer.html#ga79062311b4e71ddb7f7d2536799a7a97',1,'PWM_Duty4(uint16_t duty4):&#160;PWM.c'],['../group___timer.html#ga79062311b4e71ddb7f7d2536799a7a97',1,'PWM_Duty4(uint16_t duty4):&#160;PWM.c']]],
+  ['pwm_5finit1',['PWM_Init1',['../group___timer.html#ga67279a853e2fd8357fbfc4652c7793c0',1,'PWM_Init1(uint16_t period, uint16_t duty):&#160;PWM.c'],['../group___timer.html#ga67279a853e2fd8357fbfc4652c7793c0',1,'PWM_Init1(uint16_t period, uint16_t duty):&#160;PWM.c']]],
+  ['pwm_5finit12',['PWM_Init12',['../group___timer.html#ga30466ffa13c6c4fd40144227ef363bf8',1,'PWM_Init12(uint16_t period, uint16_t duty1, uint16_t duty2):&#160;PWM.c'],['../group___timer.html#ga30466ffa13c6c4fd40144227ef363bf8',1,'PWM_Init12(uint16_t period, uint16_t duty1, uint16_t duty2):&#160;PWM.c']]],
+  ['pwm_5finit34',['PWM_Init34',['../group___timer.html#gad41764ae6f143e84fc95f31041d908dc',1,'PWM_Init34(uint16_t period, uint16_t duty3, uint16_t duty4):&#160;PWM.c'],['../group___timer.html#gad41764ae6f143e84fc95f31041d908dc',1,'PWM_Init34(uint16_t period, uint16_t duty3, uint16_t duty4):&#160;PWM.c']]],
+  ['pwm_5frobotarmduty0',['PWM_RobotArmDuty0',['../group___timer.html#ga7cf7fa9dd591fc47a70eb389c27d6f5d',1,'PWM_RobotArmDuty0(uint16_t duty0):&#160;PWM.c'],['../group___timer.html#ga7cf7fa9dd591fc47a70eb389c27d6f5d',1,'PWM_RobotArmDuty0(uint16_t duty0):&#160;PWM.c']]],
+  ['pwm_5frobotarmduty1',['PWM_RobotArmDuty1',['../group___timer.html#gaa3026ee8a0bb9b919a51298d28b8095f',1,'PWM_RobotArmDuty1(uint16_t duty1):&#160;PWM.c'],['../group___timer.html#gaa3026ee8a0bb9b919a51298d28b8095f',1,'PWM_RobotArmDuty1(uint16_t duty1):&#160;PWM.c']]],
+  ['pwm_5frobotarmduty2',['PWM_RobotArmDuty2',['../group___timer.html#ga3f004fca2909b3fb6ffb4f6f7def2770',1,'PWM_RobotArmDuty2(uint16_t duty2):&#160;PWM.c'],['../group___timer.html#ga3f004fca2909b3fb6ffb4f6f7def2770',1,'PWM_RobotArmDuty2(uint16_t duty2):&#160;PWM.c']]],
+  ['pwm_5frobotarmgetduty0',['PWM_RobotArmGetDuty0',['../group___timer.html#gaefca40b2021e7721efc07f759b08aa18',1,'PWM_RobotArmGetDuty0(void):&#160;PWM.c'],['../group___timer.html#gaefca40b2021e7721efc07f759b08aa18',1,'PWM_RobotArmGetDuty0(void):&#160;PWM.c']]],
+  ['pwm_5frobotarmgetduty1',['PWM_RobotArmGetDuty1',['../group___timer.html#ga53dc1e421fc2fe72a044cf4b791dff0f',1,'PWM_RobotArmGetDuty1(void):&#160;PWM.c'],['../group___timer.html#ga53dc1e421fc2fe72a044cf4b791dff0f',1,'PWM_RobotArmGetDuty1(void):&#160;PWM.c']]],
+  ['pwm_5frobotarmgetduty2',['PWM_RobotArmGetDuty2',['../group___timer.html#gafb8b080f544726bf699ef5742a079e1a',1,'PWM_RobotArmGetDuty2(void):&#160;PWM.c'],['../group___timer.html#gafb8b080f544726bf699ef5742a079e1a',1,'PWM_RobotArmGetDuty2(void):&#160;PWM.c']]],
+  ['pwm_5frobotarminit',['PWM_RobotArmInit',['../group___timer.html#ga000086df667f9035e1a158c06dadc068',1,'PWM_RobotArmInit(uint16_t period, uint16_t duty0, uint16_t duty1, uint16_t duty2):&#160;PWM.c'],['../group___timer.html#ga000086df667f9035e1a158c06dadc068',1,'PWM_RobotArmInit(uint16_t period, uint16_t duty0, uint16_t duty1, uint16_t duty2):&#160;PWM.c']]],
+  ['pwr_5fcntrl_5fbit',['pwr_cntrl_bit',['../structbmm150__settings.html#ace5714496c80c2a1d8a3350ea9a7f9f7',1,'bmm150_settings']]],
+  ['pwr_5fmode',['pwr_mode',['../structbmm150__settings.html#ac5fc4465c2cb56cf96fc9ff1f3afcb44',1,'bmm150_settings']]]
+];

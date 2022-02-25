@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['c',['C',['../group___math.html#gac4cf4b2ab929bd23951a8676eeac086b',1,'odometry.h']]],
+  ['callbackcccd',['callBackCCCD',['../struct_notify_characteristics.html#a0ffcd234e119a923b0c883af0ef13fe9',1,'NotifyCharacteristics']]],
+  ['callbackread',['callBackRead',['../structcharacteristics.html#a33bc0b4eedb2b08c3d6f53f44756a054',1,'characteristics']]],
+  ['callbackwrite',['callBackWrite',['../structcharacteristics.html#a6cf2fd02f740bb22a21862fd9dc02a6b',1,'characteristics']]],
+  ['cccdhandle',['CCCDhandle',['../struct_notify_characteristics.html#a04a97eb06c60abd55246d8c75900be79',1,'NotifyCharacteristics']]],
+  ['cccdvalue',['CCCDvalue',['../struct_notify_characteristics.html#a80e24ab149b63fd9180ce2b9cc53e78e',1,'NotifyCharacteristics']]],
+  ['centerconvert',['CenterConvert',['../group___r_s_l_k___input___output.html#gad3ba9e2ae552250cfe976068777227a4',1,'CenterConvert(int32_t nc):&#160;IRDistance.c'],['../group___r_s_l_k___input___output.html#gad3ba9e2ae552250cfe976068777227a4',1,'CenterConvert(int32_t nc):&#160;IRDistance.c']]],
+  ['centerfuzzification',['CenterFuzzification',['../group___math.html#ga3147baa2bec716bdc731a1542d5e7c8b',1,'CenterFuzzification(int32_t crisp, const int32_t MIN, const int32_t CENTER, const int32_t MAX):&#160;Fuzzy.c'],['../group___math.html#ga3147baa2bec716bdc731a1542d5e7c8b',1,'CenterFuzzification(int32_t crisp, const int32_t MIN, const int32_t CENTER, const int32_t MAX):&#160;Fuzzy.c']]],
+  ['characteristics',['characteristics',['../structcharacteristics.html',1,'']]],
+  ['checkgoal',['CheckGoal',['../group___math.html#gab7c3f2212f4dd0a6a17dca002ed7478d',1,'CheckGoal(void):&#160;odometry.c'],['../group___math.html#gab7c3f2212f4dd0a6a17dca002ed7478d',1,'CheckGoal(void):&#160;odometry.c']]],
+  ['chip_5fid',['chip_id',['../structbmi160__dev.html#a88e300db221e7a0382f2a4c289b9557d',1,'bmi160_dev::chip_id()'],['../structbmm150__dev.html#a88e300db221e7a0382f2a4c289b9557d',1,'bmm150_dev::chip_id()']]],
+  ['clearmrdy',['ClearMRDY',['../group___b_l_e.html#ga18a92d4c00d8048436ff0ead58bab501',1,'GPIO.h']]],
+  ['clearreset',['ClearReset',['../group___b_l_e.html#gae462f4edaec1b2049180f5dec996399e',1,'GPIO.h']]],
+  ['clock_2eh',['Clock.h',['../_clock_8h.html',1,'']]],
+  ['clock_5fdelay1ms',['Clock_Delay1ms',['../group___m_s_p432.html#ga975183291bc39bd04257c1458ecc4521',1,'Clock_Delay1ms(uint32_t n):&#160;Clock.c'],['../group___m_s_p432.html#ga975183291bc39bd04257c1458ecc4521',1,'Clock_Delay1ms(uint32_t n):&#160;Clock.c']]],
+  ['clock_5fdelay1us',['Clock_Delay1us',['../group___m_s_p432.html#gac04076eda7102f291926b439cc713176',1,'Clock_Delay1us(uint32_t n):&#160;Clock.c'],['../group___m_s_p432.html#gac04076eda7102f291926b439cc713176',1,'Clock_Delay1us(uint32_t n):&#160;Clock.c']]],
+  ['clock_5fgetfreq',['Clock_GetFreq',['../group___m_s_p432.html#ga9cba0654b940955562e7154f6b6c58f6',1,'Clock_GetFreq(void):&#160;Clock.c'],['../group___m_s_p432.html#ga9cba0654b940955562e7154f6b6c58f6',1,'Clock_GetFreq(void):&#160;Clock.c']]],
+  ['clock_5finit48mhz',['Clock_Init48MHz',['../group___m_s_p432.html#ga6af2755c894e5587fbc63a8a6ad084db',1,'Clock_Init48MHz(void):&#160;Clock.c'],['../group___m_s_p432.html#ga6af2755c894e5587fbc63a8a6ad084db',1,'Clock_Init48MHz(void):&#160;Clock.c']]],
+  ['complex',['complex',['../structcomplex.html',1,'']]],
+  ['contrast',['CONTRAST',['../group___display.html#gaeabfeed30bb698227790861c934a2151',1,'Nokia5110.h']]],
+  ['cortexm_2eh',['CortexM.h',['../_cortex_m_8h.html',1,'']]],
+  ['cr',['CR',['../group___u_a_r_t.html#ga876ce77f3c672c7162658151e648389e',1,'CR():&#160;EUSCIA0.h'],['../group___u_a_r_t.html#ga876ce77f3c672c7162658151e648389e',1,'CR():&#160;UART0.h'],['../group___u_a_r_t.html#ga876ce77f3c672c7162658151e648389e',1,'CR():&#160;UART1.h']]]
+];

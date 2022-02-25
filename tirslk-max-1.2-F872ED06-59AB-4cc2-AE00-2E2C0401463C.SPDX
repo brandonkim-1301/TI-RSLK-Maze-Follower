@@ -1,0 +1,3958 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentComment: <text>About This SPDX Manifest: This SPDX document was generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
+CONDITIONS OF ANY KIND, either express or implied. ScanCode is a free software code scanning tool from nexB Inc. and others. 
+Visit https://github.com/nexB/scancode-toolkit/ for support and   download. TI is using the SPDX tool because SPDX generates a high-quality, 
+industry-standardized manifest for TI customers.  TI believes these standardized manifests will enable TI customers to more easily integrate multiple manifests 
+from their suppliers into the comprehensive manifest they are supplying to their customers. Please recognize that while TI has done some initial review of 
+the information for accuracy, no manifest is perfect and  it is possible that something may be missed.  It is also important to note that the SHA1 values for --
+the files may not be the final checksums, even though we have reviewed the copyright and license information.
+
+About SPDX: SPDX is an industry working group that is working on an ongoing basis to develop and improve a standard method for the exchange of licensing 
+information (see http://spdx.org).  TI is participating in this working group in order to (i) provide the industry with an overall improvement in the quality 
+and consistency of manifests, and (ii) give suppliers and customers a firm foundation on which to build and constantly improve their manifests.  Please note 
+that SPDX is an evolving standard and, therefore, SPDX manifests you receive from TI and other suppliers in the future may not be exactly the same, but will 
+show improvements in quality and ease of use. 
+</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.2.1
+CreatorComment:  <text> This SPDX document is primarily an electronic scan (with some editing) of the source used by Texas Instruments to 
+build this package. While every attempt has been made to ensure its accuracy, machine translations are not always perfect. In addition, it is 
+possible that some files have been modified prior to its release and their checksums may not match those in this document. This document does notcover files 
+in the cc3100-sdk directory. Those files are covered by their own License Manfest file which has been included in this Package. </text>
+Created: 2020-10-20T13:46:24Z
+
+
+# Package
+
+PackageName: tirslk_max - TI Robotics Software Learning Kit Max
+PackageVersion: 1.2
+PackageSupplier: Texas Instruments
+PackageSummary: <text>The TI-RSLK (robotics system learning kit) family includes a series of low-cost robotics kits and classroom curriculum that 
+provide educators and students with hands-on, customizable options for learning electronic systems design. The newest addition to the TI-RSLK family, 
+the TI-RSLK MAX is simple to use, build and test. With a solderless assembly process, students can have their own fully-functioning system up and 
+running in less than 15 minutes. The new kit includes the industry-leading SimpleLink MSP432P401R LaunchPad™ Development Kit, easy-to-connect sensors, 
+and a versatile chassis board that turns the robot into a mobile learning platform. 
+
+The main software package for the TI-RSLK is the starter code, this package alng with its associated documentation and contains many CCS projects 
+that will need to be imported into Code Composer Studio and that is described fully in Module 1 of the curriculum.
+ 
+tirslk_max is a set of software components that includes about 50 CCS example projects, html documentation, data sheets, and a Windows application 
+called TExaSdisplay. 
+</text>
+PackageSourceInfo: <text>Source files from Texas Instruments, Jonathan Valvano and Embedded Systems Real-Time. Documenets from their 
+respective owners. </text>
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5a8e55ef1c32d456437aaf258a6b836d7aa2455a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-2-Clause-FreeBSD
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-arm-cortex-mx
+PackageLicenseInfoFromFiles: LicenseRef-ti-restricted
+PackageCopyrightText: <text>Copyright (c) 2007-2014 Texas Instruments Incorporated.
+Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+Copyright (c) 2014 Texas Instruments Incorporated
+Copyright (c) 2014 Texas Instruments Incorporated.
+Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+Copyright (c) 2015 ClosedCube Limited
+Copyright (c) 2015, Texas Instruments Incorporated
+Copyright (c) 2017, Jonathan Valvano
+Copyright (c) 2017, Texas Instruments Incorporated
+Copyright (c) 2018, Jonathan Valvano
+Copyright (c) 2019, Jonathan Valvano
+Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2018
+Jonathan Valvano, copyright (c) 2019
+Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Valvano Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+copyright (c) 2018 Embedded Systems Real-Time Interfacing
+copyright (c) 2018 Embedded Systems Real-Time Operating Systems
+copyright (c) 2019
+copyright (c) 2019 Embedded Systems Real-Time Interfacing
+copyright (c) 2019 Embedded Systems Real-Time Operating Systems
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ADCSWTrigger/ADCSWTriggermain.c
+FileChecksum: SHA1: 1740e50a26664f4874a2dd658356dd23319124f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ADCSWTrigger/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ADCSWTrigger/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/Lab12.h
+FileChecksum: SHA1: aa30b3049737dd07a27225205e90d6850662e7c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/Lab16.h
+FileChecksum: SHA1: 7679e767553f323a6a2c28713a2397a014840888
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/Lab17.h
+FileChecksum: SHA1: ac756707a1adffde319fec97a73839948dc9960e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/Lab19.h
+FileChecksum: SHA1: e8e076ed8d5261fdf76f92aef70744b853c23b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/Lab7.h
+FileChecksum: SHA1: 19c2f70ac80ac9c9919cc17c8449afeae487036e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/OutputType.h
+FileChecksum: SHA1: ab5dec0079b26dfff676c994f0f53c9dee380c58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2018 Embedded Systems Real-Time Interfacing
+copyright (c) 2018 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2018
+Copyright (c) 2018, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/TExaS.h
+FileChecksum: SHA1: 37bebacef7575615e6b2998bb398c16eebca03db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/blinker.c
+FileChecksum: SHA1: 39d834a23176c2efc1033108b6ddd4071cb3f2cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019 Embedded Systems Real-Time Interfacing
+copyright (c) 2019 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/blinker.h
+FileChecksum: SHA1: 6c04f2649dd0a5eeb12cfc2fccac29bf448f2c47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019 Embedded Systems Real-Time Interfacing
+copyright (c) 2019 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/main.c
+FileChecksum: SHA1: 60da0035d2c0f7e63896d24e80943c531f77a3b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ASEE/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ApplicationProcessor/ApplicationProcessor.c
+FileChecksum: SHA1: 77cde49af1d6a95bea5fb5bd616d8cc3ef528140
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ApplicationProcessor/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ApplicationProcessor/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/BMI160/BMI160_TestMain.c
+FileChecksum: SHA1: 93dcee6fd4ba141aacf7eec8f6e4b5cba1fbf90f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/BMI160/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/BMI160/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/CC3100_GetWeather/application_commands.h
+FileChecksum: SHA1: 7af837dbde3f20e5c5a28d6e6c7fe0c84f7f1165
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-ti-restricted
+FileCopyrightText: <text>Copyright (c) 2014 Texas Instruments Incorporated.
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/CC3100_GetWeather/main.c
+FileChecksum: SHA1: 2fa261077e907c0765455ad14f33b36cbc539dfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2014 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/CC3100_GetWeather/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/CC3100_GetWeather/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BLE/Robot_BLEmain.c
+FileChecksum: SHA1: ef7af1c3f2160f8722c70436f7484c25a518e5b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BLE/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BLE/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BuddyFollower/BuddyFollower_main.c
+FileChecksum: SHA1: 1c59aa746435d8bf75d6d65ba17d1ef9edb0f912
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BuddyFollower/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_BuddyFollower/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_Distance/Robotmain.c
+FileChecksum: SHA1: 23c11fb40ba455394f32676363b51e817ca31f9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_Distance/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Competition_Distance/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ConcurrentMultithreading/main.c
+FileChecksum: SHA1: 155bd75a4e06f2559beef292697e7d1fdbac5d6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ConcurrentMultithreading/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ConcurrentMultithreading/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/EdgeInterrupt/EdgeInterrupt.c
+FileChecksum: SHA1: ac2b753e57f1cf611c603bb47ce8857d20bd0b0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/EdgeInterrupt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/EdgeInterrupt/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/FFT/FFTtestmain.c
+FileChecksum: SHA1: 54293695b88efa1eed27dbfd6893a901110bdbac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/FFT/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/FFT/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Flash/FlashTestMain.c
+FileChecksum: SHA1: 829805cf3ea71ed2b52d40bd74448aeb0017ed6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Flash/Scoreboard.c
+FileChecksum: SHA1: aa580c5e47bb6fae32f91d4b2ef4d11fa6ee93c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Flash/Scoreboard.h
+FileChecksum: SHA1: bc696eab10fbe60d2398cbe2a242ebeadd0df943
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Flash/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Flash/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/GPIO/GPIOmain.c
+FileChecksum: SHA1: ca349ab578a9984163516556707bcb19954e155f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/GPIO/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/GPIO/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/HDC2080/HDC2080_TestMain.c
+FileChecksum: SHA1: 222b20a2bfbec9fb0b1c3f212848955f3937124a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/HDC2080/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/HDC2080/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/InputOutput/InputOutput.c
+FileChecksum: SHA1: 197e9ec0a34fb743a6e86732f127e57e848cd544
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/InputOutput/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/InputOutput/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki/Jackimain.c
+FileChecksum: SHA1: d0ac3367044547ac9ddac70bf3e7e9c8be257f16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki_FSM/JackiFSMmain.c
+FileChecksum: SHA1: 297168528d8cedc6d91ee65fc5b704067735c34a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki_FSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Jacki_FSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab03_Assembly/Lab03_Assemblymain.asm
+FileChecksum: SHA1: b5f171be0aaab6f7b1e5b4637588ae0debac47e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab03_Assembly/convert.asm
+FileChecksum: SHA1: f63da64a9377ce295ff3674f55e40a137021949e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab03_Assembly/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab03_Assembly/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab04_SoftwareDesign/Lab04_SoftwareDesignmain.c
+FileChecksum: SHA1: 9b5cc8bb74ee5d566c7a86e17196f11a8b7f6e5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab04_SoftwareDesign/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab04_SoftwareDesign/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab06_GPIO/Lab06_GPIOmain.c
+FileChecksum: SHA1: e8a5a026eda2e5f88726b7a3b05ba91c131e1485
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab06_GPIO/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab06_GPIO/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab07_FSM/Lab07_FSMmain.c
+FileChecksum: SHA1: f1674b376dad7ff048ad87ac4e9d3089185a854c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab07_FSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab07_FSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab08_Switches_LED/Lab08_LED_Switchesmain.c
+FileChecksum: SHA1: 5005fd7f40647d130a43f88d027fa3eb0da4861e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab08_Switches_LED/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab08_Switches_LED/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab09_SysTick/Lab09_SysTickmain.c
+FileChecksum: SHA1: 0de66d3b9ae1688ec9833fe813a320e080fc8597
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab09_SysTick/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab09_SysTick/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab10_Debug/Lab10_Debugmain.c
+FileChecksum: SHA1: 517740237dd24d7ef8f9f706b7e9d38b4579b055
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab10_Debug/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab10_Debug/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_LCD/Lab11_LCDmain.c
+FileChecksum: SHA1: 29a29894dba246dcfc81eb36a5031dc22b9266c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_LCD/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_LCD/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_OLED/Lab11_OLEDmain.c
+FileChecksum: SHA1: 3ee4a0b2c60af8f0e50eaa6df31fc4a529bdd4ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_OLED/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_OLED/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_UART/Lab11_UARTmain.c
+FileChecksum: SHA1: 0c43bb79f0cc0816310fcfa438511cabab9e2636
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_UART/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab11_UART/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab12_Motors/Lab12_Motorsmain.c
+FileChecksum: SHA1: 2dadd7deb9378a38fa5ae4ca473cbbd971b9bc60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab12_Motors/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab12_Motors/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab13_Timers/Lab13_Timersmain.c
+FileChecksum: SHA1: 13fe0a1912746c818f49eaeab89660a2aa61d621
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab13_Timers/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab13_Timers/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab14_EdgeInterrupts/Lab14_EdgeInterruptsmain.c
+FileChecksum: SHA1: 4e7c6be6ae88f2c16bd59534b740556b53978ebc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab14_EdgeInterrupts/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab14_EdgeInterrupts/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC/Lab15_ADCmain.c
+FileChecksum: SHA1: c855e05467a6e0b3388b30c3d7dbda4cd5f8aec2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC_Sound/Lab15_ADC_sound_main.c
+FileChecksum: SHA1: 2b0b030c736715218524a0afd03163522d3c19c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC_Sound/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab15_ADC_Sound/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab16_Tach/Lab16_Tachmain.c
+FileChecksum: SHA1: 2a536a03e59c8c7fdad2d3eaa8c3b0d324b3f14c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab16_Tach/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab16_Tach/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab17_Control/Lab17_Control.c
+FileChecksum: SHA1: 15b5489d27abe338e96ccb436583732dcb3acf60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab17_Control/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab17_Control/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab18_UART/Lab18_UARTmain.c
+FileChecksum: SHA1: 4ed0d52e2bce6b927bf9b2032ab9dba4e635f160
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab18_UART/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab19_BLE/Lab19_TestMain.c
+FileChecksum: SHA1: 9e687096e67e25611a466d7f724cf6516fa06c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab19_BLE/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab19_BLE/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab20_CC3100/application_commands.h
+FileChecksum: SHA1: 7af837dbde3f20e5c5a28d6e6c7fe0c84f7f1165
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-ti-restricted
+FileCopyrightText: <text>Copyright (c) 2014 Texas Instruments Incorporated.
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab20_CC3100/main.c
+FileChecksum: SHA1: 504553327a024b9d827b230efd95097ccf642756
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2014 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab20_CC3100/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab20_CC3100/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_BMI160/Lab21_BMI160_TestMain.c
+FileChecksum: SHA1: d747d24501f8aeb285c532b4c428f90a98668baa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_BMI160/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_BMI160/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_OPT3101/Lab21_OPT3101_TestMain.c
+FileChecksum: SHA1: 7c8804c18e2cf890b1c76fba2ec9ec54a1e0a541
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_OPT3101/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Lab21_OPT3101/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LineFollowFSM/LineFollowFSMmain.c
+FileChecksum: SHA1: 9143412663bd2a61d97e078eb0cb68ab7faee56d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LineFollowFSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LineFollowFSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LinearInterpolation_asm/LinearInterpolation.asm
+FileChecksum: SHA1: 6f33396f61d441f792a5889f514083f6c17ba1be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LinearInterpolation_asm/sin.asm
+FileChecksum: SHA1: 0768400c83a2db52d27871400c2b07cf93b93524
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LinearInterpolation_asm/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/LinearInterpolation_asm/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3001/OPT3001_TestMain.c
+FileChecksum: SHA1: 526b04a4fa4a8cf0345a7b7b97ab5e522599ff7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3001/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3001/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3101/OPT3101_main.c
+FileChecksum: SHA1: 0d1f4dcd43818d0fe68a15e30e2ff0c3d1a16447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3101/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/OPT3101/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Odometry/OdometryTestMain.c
+FileChecksum: SHA1: 569503eda8c57fa8c66dda69373d47bea6f7997b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Odometry/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Odometry/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PWMSine/PWMSine.c
+FileChecksum: SHA1: 62e9a4ce126a3e4f348b14f00014d2d5825463ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PWMSine/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PWMSine/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodMeasure/PeriodMeasure.c
+FileChecksum: SHA1: 56231388c360819b499c40df39cc56783d56b9f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodMeasure/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodMeasure/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodicSysTickInt/PeriodicSysTickIntsMain.c
+FileChecksum: SHA1: ac591bcf4f38f63272bbccc62064594c88eafd5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodicSysTickInt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PeriodicSysTickInt/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PointerTrafficLight/PointerTrafficLightmain.c
+FileChecksum: SHA1: d74982435b862f04508e9a81f2f5c3e889e0d2aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PointerTrafficLight/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/PointerTrafficLight/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ProfileSqrt/ProfileSqrt.c
+FileChecksum: SHA1: 6f743d16fec5dcdeca595673d2194c41549d4da5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ProfileSqrt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/ProfileSqrt/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/RobotArm/RobotArmmain.c
+FileChecksum: SHA1: f659031f89ded1c8626a09f40fef506597d776b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/RobotArm/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/RobotArm/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SimpleProject_asm/main.asm
+FileChecksum: SHA1: 241f598a50423bbcbbfe96e8fec39bcbff9e895b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SimpleProject_asm/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SimpleProject_asm/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SineFunction/SineFunction.c
+FileChecksum: SHA1: da4ea119b39f8bc23a9239a1af67c4ea84aff7d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SineFunction/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SineFunction/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Switch/Switchmain.c
+FileChecksum: SHA1: 53466e914d64447da1ac8a31a782274c7535f9d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Switch/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Switch/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SysTick/SysTickTestMain.c
+FileChecksum: SHA1: f25ef26a3ffa61ad335080aa5335cc9fdc261a6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SysTick/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/SysTick/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TExaS/TExaSmain.c
+FileChecksum: SHA1: 0b68071059c6cbacbc18947ffc2cdbbd6d34f97c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TExaS/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TExaS/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TI_RSLK_MAX/RSLK_MAX_main.c
+FileChecksum: SHA1: cf5d3ccfa537c5da8ac27170bf3111c460041405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TI_RSLK_MAX/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TI_RSLK_MAX/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TMP117/TMP117_TestMain.c
+FileChecksum: SHA1: 9331f513dc339ddde05dc2f0c880ca6954c902f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TMP117/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/TMP117/system_msp432p401r.c
+FileChecksum: SHA1: 2ee417e34bf9dd7e10f532fc30abfd252c15942e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/UART/UARTtestmain.c
+FileChecksum: SHA1: ace906ea9aa694eaba49f9d1a5886f4337f80d7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/UART/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/UART/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Ultrasound/UltrasoundLCDmain.c
+FileChecksum: SHA1: 8c330c6ff16936bed2d9b11163be5312c1240fca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Ultrasound/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/Ultrasound/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/VerySimpleApplicationProcessor/VerySimpleApplicationProcessor.c
+FileChecksum: SHA1: b5f8c75c85c6803f6be69407178c2abf07c6aa5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/VerySimpleApplicationProcessor/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/VerySimpleApplicationProcessor/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/adc14.c
+FileChecksum: SHA1: a92bb0ac0099159af632cb47fefbf3b0f4ffd73e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/adc14.h
+FileChecksum: SHA1: e6332e5c210eec99e78bc33b24304cc6cfc67efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/aes256.c
+FileChecksum: SHA1: 21521ede98947107cc8a763d8ffc2a8457ded206
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/aes256.h
+FileChecksum: SHA1: c027e0be96003e43dafdd3f44926fea812804179
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/comp_e.c
+FileChecksum: SHA1: 9d4ed321479d7cda3fee706d06bf485b88d03b3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/comp_e.h
+FileChecksum: SHA1: 644d40f4bf7e6377a23dca8923093e09d7e2e372
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/cpu.c
+FileChecksum: SHA1: ec44bab67443ee346fbaebebf2bd2263fc96e444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/cpu.h
+FileChecksum: SHA1: 10c700fec32267e7820ad402f0756340147c2608
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/crc32.c
+FileChecksum: SHA1: c88e6906cf25f6f1a601a5bdb162d54f9033d992
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/crc32.h
+FileChecksum: SHA1: 3033ad094efd608afb060f21caa43b416a55b0ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/cs.c
+FileChecksum: SHA1: ce36e9e5a93c60e3df0e27a6689a0bb2c7d896bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/cs.h
+FileChecksum: SHA1: 3ca99e61c91e82b5353613addd57b1eafb00f1e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/debug.h
+FileChecksum: SHA1: 773c875fe17fc43ac574b1ae99c192fc0dfe7390
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/dma.c
+FileChecksum: SHA1: 7f51bfd090e96ba7b3b87cee7b1241caf4d4326d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/dma.h
+FileChecksum: SHA1: 7154cced844bde2501a4e36f94ad86f4ff06f38a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/driverlib.h
+FileChecksum: SHA1: b4afd18e42d6935d0110d9f0fc1363e40a65c59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/eusci.h
+FileChecksum: SHA1: 433a32c804371e6fd87dd75ec4a6cee5626bb6f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/flash.c
+FileChecksum: SHA1: dd9d71406dd7232d580b9cd9d835e7759387ba06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/flash.h
+FileChecksum: SHA1: 95f68acced305e4c53b7058d6f11db7227f9e354
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/flash_a.c
+FileChecksum: SHA1: 2c1458a003b114a3cca58ac7ae205cae1d4c79e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/flash_a.h
+FileChecksum: SHA1: 43c0bfadd579b89ce11079e92f0baeb5430d34dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/fpu.c
+FileChecksum: SHA1: defb69e54c4711b395768f855762c2b19e12f8fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/fpu.h
+FileChecksum: SHA1: b6730299169b699afcdfda32f64f6727203c3eae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/gpio.c
+FileChecksum: SHA1: 6077b6334cb87c3258b456d2b7837b9f9f5a3d0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/gpio.h
+FileChecksum: SHA1: 77b28f2a24f31a68c3540aa9619c3893120b23d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/i2c.c
+FileChecksum: SHA1: be0d358834d4904dbb945a944a466bd47eb6902d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/i2c.h
+FileChecksum: SHA1: 21becc451d42105a8f69e27de92bb7ce47a6b3c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/interrupt.c
+FileChecksum: SHA1: 2582161126892970ec2b1de0dcc52fa91cc65daf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/interrupt.h
+FileChecksum: SHA1: d25d6afd0180551303c23508bf9e7bf911fcfada
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/lcd_f.c
+FileChecksum: SHA1: 00216424fba29f295c971e277f9bd316225d433d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/lcd_f.h
+FileChecksum: SHA1: 02b2511b8ff2fc929a238cbbd11b3f343a816505
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/mpu.c
+FileChecksum: SHA1: e3cb80296370f30b55c5038968aeb8ca6d024839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/mpu.h
+FileChecksum: SHA1: 6b8146bf2f22edb17a933e096242c403139eba04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pcm.c
+FileChecksum: SHA1: 57383226d5485a471b6b79bf89a0ee543079b2d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pcm.h
+FileChecksum: SHA1: 98797fb18ef2f20113fbb312518bf577f5ee7476
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pmap.c
+FileChecksum: SHA1: a15d779fdd1956b7180f073cb1f1f410e71d9004
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pmap.h
+FileChecksum: SHA1: 4101005283c018983aa26da17b7320153946f170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pss.c
+FileChecksum: SHA1: f477ac095d8d25d8c630c90ad5c21a8769ba0049
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/pss.h
+FileChecksum: SHA1: 578d19469d1eb1113145fb84502bfe6ea1f00bb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/ref_a.c
+FileChecksum: SHA1: c0df89198bf7855851df1e61b5d116d13cd77e40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/ref_a.h
+FileChecksum: SHA1: 3a78af3c2046ac82773ad6e10598a9ccc9bc0888
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/reset.c
+FileChecksum: SHA1: d9df7e65d939ab12c41edd426c5b290fe0d69978
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/reset.h
+FileChecksum: SHA1: a42d6c84a4d3d8218bec433f488be513045f5613
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/rom.h
+FileChecksum: SHA1: 77b9280212231029cf999732a104e288a8da0e53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/rom_map.h
+FileChecksum: SHA1: 75f704f13b6f1167504d8929c224f1f1386453b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/rtc_c.c
+FileChecksum: SHA1: cba58f481d6f4366400dc6f7ea9cdb2dc521290c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/rtc_c.h
+FileChecksum: SHA1: 2df093a03a101e417cf9fb8dced69d762fe3f167
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/spi.c
+FileChecksum: SHA1: a4dfb6191f789aceb0b6c1e89245abb3d5d1288f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/spi.h
+FileChecksum: SHA1: 4404d7b26e86184469c8901f0c2c97a07b728999
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/sysctl.c
+FileChecksum: SHA1: a4bce47f409c04b4a1d69c3de4839974a8827ec1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/sysctl.h
+FileChecksum: SHA1: f491c5956c16b0c2b6287de1b619739dbc52bbe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/sysctl_a.c
+FileChecksum: SHA1: e68971cce8710d0bd1d0b366c9a374a92f7a0954
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/sysctl_a.h
+FileChecksum: SHA1: 5bf7f261d638268929df9d451a8d6f07c2b870a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/systick.c
+FileChecksum: SHA1: 472c87509793b5bef41db0ae2a09138c47c26f43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/systick.h
+FileChecksum: SHA1: 4757f41a270a367966b2ce400089bae12714d83a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/timer32.c
+FileChecksum: SHA1: a44f75e6e0e6ff64cc32f2d55f76aeba9ebdebe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/timer32.h
+FileChecksum: SHA1: adb08f0e41f65746f74989480086bd639398e85d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/timer_a.c
+FileChecksum: SHA1: 32a542ec4be9ab9fe1915c3a1c2779d4fe97353f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/timer_a.h
+FileChecksum: SHA1: bd79079ce2a694f86bb07f83f20468885cf2ce80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/uart.c
+FileChecksum: SHA1: bb5b3455c6a27398de5d721a1a68567b04bf4be3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/uart.h
+FileChecksum: SHA1: 79dec290292d5e4f692e2d2e17fe1569d128b39a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/uartdriver.c
+FileChecksum: SHA1: 171b68c521fb1de27e944e4e140e45ad9d17c2df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/wdt_a.c
+FileChecksum: SHA1: 787d7e8917d1aa33ea160fefe8a92121d7ed6d1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/driverlib/wdt_a.h
+FileChecksum: SHA1: b06805d1a37174e0aab25da02aa806b12a00fbf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2017, Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/ADC14.c
+FileChecksum: SHA1: be1deb063bd03c2336d364842dfe7845a4a8b9a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/ADC14.h
+FileChecksum: SHA1: 88b668a368a33be9deb053cef3e8d59045d01369
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/ADCTA0Trigger.c
+FileChecksum: SHA1: 30945d2449537c144c420277d112a39f0a913bab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/ADCTA0Trigger.h
+FileChecksum: SHA1: 0b1b16da9082358d13a04c26d8980f47cae619a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/AP.c
+FileChecksum: SHA1: e41696a5deda6c20b2d979700defdba789a7d800
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/AP.h
+FileChecksum: SHA1: fa7c968c6c97059ef6d05b38c91448efece7140e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Bump.c
+FileChecksum: SHA1: 85a539cc2b734d931b83cd0657579e5b7bba8264
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Bump.h
+FileChecksum: SHA1: cb772038679c92c0f616713255f37a44b2f54af4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/BumpInt.c
+FileChecksum: SHA1: 6ad06c934a4fc39995a798e75f5b5098001c48c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/BumpInt.h
+FileChecksum: SHA1: 592b1309bd53dffed3637372397c750eae66619b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Clock.c
+FileChecksum: SHA1: 54f4978d03a915fc1f8b18026d0cb63105b74dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Clock.h
+FileChecksum: SHA1: c83703e02214a0da36a6e558e4fa230ec26d359e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/CortexM.c
+FileChecksum: SHA1: de77040d3ef5a873d372ef94562c6f4ca9067c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/CortexM.h
+FileChecksum: SHA1: 9c799dcf05c5ef6e24cf6fc21d6074d51e611e2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/EUSCIA0.c
+FileChecksum: SHA1: beb5a5b69672ebe2daf84fa30694ba6e4aa62326
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/EUSCIA0.h
+FileChecksum: SHA1: d80de000e484ae372c3f58f5afa3c0e1b5d23c5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FFT.c
+FileChecksum: SHA1: 043e681f681d2792c795b038070597738ea0972b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FFT.h
+FileChecksum: SHA1: c2dbbcba39f73f6886f56a1281632f3ef9e56d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FIFO0.c
+FileChecksum: SHA1: 73d9ddab59fc8c1aa54e22d5e50a75e80e6936e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FIFO0.h
+FileChecksum: SHA1: cd2580d9bac9a193dae001f0af3283da84385c5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FlashProgram.c
+FileChecksum: SHA1: 6f54c6686dbbf6d6b6ec0d78857cb56d59e66da3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/FlashProgram.h
+FileChecksum: SHA1: 9cd3f5cc876d061960ec031689b3ea9c14948049
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Fuzzy.c
+FileChecksum: SHA1: 17d7a7b07c3ae3f058ced50679f4894598f012a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Fuzzy.h
+FileChecksum: SHA1: f05a948d8532d1a3f8d39f2a680ba0b1733d5d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/GPIO.c
+FileChecksum: SHA1: e0ef142f5aa08b1423c61785a119a55a7e8f4c6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/GPIO.h
+FileChecksum: SHA1: e24d02a7aad65fe749f93ebb3cd8816fc38f0771
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/HDC2080.c
+FileChecksum: SHA1: b50718e540b992b12c891a46713d0375dfab5f18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/HDC2080.h
+FileChecksum: SHA1: c22816462c5d31b67f7093c905d6b44f0ff38f7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/I2CB1.c
+FileChecksum: SHA1: a74f47db9a22a29e1e617012b8cee421e975fae1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/I2CB1.h
+FileChecksum: SHA1: 0c9253815f4e37dcfe67d74dcf60f30400072749
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/IRDistance.c
+FileChecksum: SHA1: 55f4367d611e806b5db067960ccf228820a84cb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/IRDistance.h
+FileChecksum: SHA1: c0a647dab03917442327ad6c266f43643ed2ba65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/LPF.c
+FileChecksum: SHA1: 9e251b47ba98f3cc7a4eb262b0a18a0fc280c80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/LPF.h
+FileChecksum: SHA1: e4020e9a85dd2635f1e7e0e9aca675a911ddcbaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/LaunchPad.c
+FileChecksum: SHA1: 1c5c55843bba526c4dd4416db5e9be3110c175a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/LaunchPad.h
+FileChecksum: SHA1: 0704a2bd9ef13a0c5fb861f77f50d44be9393e6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Motor.c
+FileChecksum: SHA1: 92a0e3a24cbb38ed300c26e25d9f9aa36d34d3f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Motor.h
+FileChecksum: SHA1: 7885b684f1b600fea0b09ea361ecf0eed2b45dbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/MotorSimple.c
+FileChecksum: SHA1: 53eb3d1c1ed7b8a78f8f6ba53bb6eb3fb5df6d69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/MotorSimple.h
+FileChecksum: SHA1: 5c84fbcf11d078497cc03f82d57f2d5f18f83039
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Nokia5110.c
+FileChecksum: SHA1: 8f095c30d08f8a239a9c447ff560b063ae1fabab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Nokia5110.h
+FileChecksum: SHA1: 4fb471002c02732477af5418b2b7fe5ff2ae2c64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/OPT3001.c
+FileChecksum: SHA1: a575c5c5d26bb5cdce00f1dec04e9c1a693ea2d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: MIT
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright (c) 2015 ClosedCube Limited
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/OPT3001.h
+FileChecksum: SHA1: 863169d169452a532c134502937ecfc8d2523d0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/PWM.c
+FileChecksum: SHA1: 91841e5854bdd8c7c62dcc43c63f1fa198a204e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/PWM.h
+FileChecksum: SHA1: e3612198179ed1e59192c7fe1ad16f5a64a4655f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Reflectance.c
+FileChecksum: SHA1: dc5c20cac106b1a511cc4da786ed45cedc4d1b1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Reflectance.h
+FileChecksum: SHA1: bf5f286ebb532c90f5c6a59186bff18635499177
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SSD1306.c
+FileChecksum: SHA1: 86bdcb82d9aca860019adf21c63746935689456c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SSD1306.h
+FileChecksum: SHA1: c8f41ee769ee328552e6253bb6588e0b31df5762
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Switch.c
+FileChecksum: SHA1: 8c70b4f16cd8e9edc6ef30beb551b0df01c7afa5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Switch.h
+FileChecksum: SHA1: 01285632ccf96e86af97490c29dae99a94bcc863
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SysTick.c
+FileChecksum: SHA1: 91154229b9bca266fde1678d5d05521b881015d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SysTick.h
+FileChecksum: SHA1: 8a4b6bd547e5899b644fa7ee20101478fea9c287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SysTickInts.c
+FileChecksum: SHA1: 3994d5768223423900e33be0eb7b5aceb6566993
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/SysTickInts.h
+FileChecksum: SHA1: cb82866c8394cb047ead6c460ec19d35c2818353
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA0InputCapture.c
+FileChecksum: SHA1: 0e23799d68bf1a2132fefb606c366b82ba178711
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA0InputCapture.h
+FileChecksum: SHA1: f872ff4a60835323ef831d5fa97b2d4f2a8a8f35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA2InputCapture.c
+FileChecksum: SHA1: 61be5ed1152902d45bf3d619910acede0cfb2e26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA2InputCapture.h
+FileChecksum: SHA1: 264fdb6d6504bd6c52ffbf934dbc24890b1ac9d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA3InputCapture.c
+FileChecksum: SHA1: 678c26af49379a94fe293e8dcbae0ed0bf583ad8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TA3InputCapture.h
+FileChecksum: SHA1: 2c499d647fcb423601d0acd48b151d93889d0a51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TExaS.c
+FileChecksum: SHA1: fd3adc6835560191acdf4f318ac830cd30411547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TExaS.h
+FileChecksum: SHA1: ccc7aaa773a5f11be2d171620bec0a6400b8245e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TMP117.c
+FileChecksum: SHA1: d0e3bcbeeae1290623251c35687a5e8ed4bb7a2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TMP117.h
+FileChecksum: SHA1: 8d7965a6eaa83825e025c222f47132d3d674e1ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Tachometer.c
+FileChecksum: SHA1: 500603f33c23814b96f837367d3933474a1c819c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Tachometer.h
+FileChecksum: SHA1: 229b679a80df01e6872e5d59351fa2da19a057ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Timer32.c
+FileChecksum: SHA1: 8187bd0fdbab77f07a160e8daf581b9ad788f0d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Timer32.h
+FileChecksum: SHA1: e515ee6601bbc1a94de7caccf6ebd57d4a50ef60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA0.c
+FileChecksum: SHA1: cfc70e50ddf3d7f4388f29458dbe735980fce158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA0.h
+FileChecksum: SHA1: 5f2afe55b86c8a85a69c69d909c551cfb763613e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA1.c
+FileChecksum: SHA1: fa5313ec352d190c790c4e85dbd7262c28bb2119
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA1.h
+FileChecksum: SHA1: ff952c21251c69d06ffb49fe012107d67223e3b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA2.c
+FileChecksum: SHA1: 406ed69da4d2745c56df13ad9f9076b1bc1536ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/TimerA2.h
+FileChecksum: SHA1: 8b9b9b3152045bebdec8a01fc40471a38e8ff50b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/UART0.c
+FileChecksum: SHA1: 900843c453b33fbad127e50d5fd4714d4678858b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/UART0.h
+FileChecksum: SHA1: db556b2172088f37b6a0cf940cec4d0acc7b9651
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/UART1.c
+FileChecksum: SHA1: 2036826b41ad6408c68e779070e259a34c81dfcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/UART1.h
+FileChecksum: SHA1: a67d67112aef93dcb3ffbdfe31e16593de64b3b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Ultrasound.c
+FileChecksum: SHA1: 10c9c09e14bd000fbdd4a7d1bf31c416fdf47b56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/Ultrasound.h
+FileChecksum: SHA1: ef4ab8ea1dbdcdf13cab06f87d47ab6a7d6df212
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/ValvanoDictionary
+FileChecksum: SHA1: a41bae3480b4090bd659defa0d07d9da554555c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/blinker.c
+FileChecksum: SHA1: e6ccac8c15aa8d342d696e9e1019f69a01000227
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/blinker.h
+FileChecksum: SHA1: bb61c18ca26346fb7f25d093c2ae2937ced517bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmi160.c
+FileChecksum: SHA1: 7fe530e5c785bc678735c46ff56ad78313c0139a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmi160.h
+FileChecksum: SHA1: f9aba3fbd0fc71ea19c12db4a99f1161cb3460d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmi160_defs.h
+FileChecksum: SHA1: a265e4e08bfaa69f61e838ebfe6e8b1ef699061a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmm150.c
+FileChecksum: SHA1: 270a930637dccc539806820a0a75335ffe3330fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmm150.h
+FileChecksum: SHA1: d5c69fb3886449a24eb465a769d1176335815ad0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/bmm150_defs.h
+FileChecksum: SHA1: 178a2c130449c119409c051af9ba71a0f707c09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/fixed.c
+FileChecksum: SHA1: 07336007f483f380405b5f34d9917ac8d11d04ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/fixed.h
+FileChecksum: SHA1: 5b168b5bd6c7a75215bf76a27acaea72509ebd64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/incmain.c
+FileChecksum: SHA1: e67812077c19def055a083eeed7b4a83f50e3c21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/odometry.c
+FileChecksum: SHA1: 5ec7420091b5121257d0cd77683a8136ef41bc8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/odometry.h
+FileChecksum: SHA1: 2f1e71d76c28162eac5a03033d273092bb9d39b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/opt3101.c
+FileChecksum: SHA1: d52faf52f3f978eab4c769e38be5eb0da4d8d80c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/opt3101.h
+FileChecksum: SHA1: 67c5bee4afc865a8bd012d90d93a08ddb7592985
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2019 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2019
+Copyright (c) 2019, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/inc/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/utils/uartstdio.c
+FileChecksum: SHA1: 6d9043aad1f223e695e34f8eb5c882109ff26179
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-arm-cortex-mx
+FileCopyrightText: <text>Copyright (c) 2007-2014 Texas Instruments Incorporated.
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/utils/uartstdio.h
+FileChecksum: SHA1: 7bd0b804b776230c07e1d55cfebe71efa45027ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-arm-cortex-mx
+FileCopyrightText: <text>Copyright (c) 2007-2014 Texas Instruments Incorporated.
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/utils/ustdlib.c
+FileChecksum: SHA1: cc5a39af516cfde674045f4732c3b657fe0c49c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-arm-cortex-mx
+FileCopyrightText: <text>Copyright (c) 2007-2014 Texas Instruments Incorporated.
+</text>
+
+
+# File
+
+FileName: ./tirslk_max_1_00_02/utils/ustdlib.h
+FileChecksum: SHA1: cb188e01a2f6d2f179d15c45870c1e6bdd44db16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-arm-cortex-mx
+LicenseInfoInFile: LicenseRef-ti-restricted
+FileCopyrightText: <text>Copyright (c) 2007-2014 Texas Instruments Incorporated.
+</text>
+
+
+# Extracted Licenses
+
+LicenseID: LicenseRef-arm-cortex-mx
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/arm-cortex-mx.yml
+</text>
+ExtractedText: <text>NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
+// NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. [TI] [SHALL] [NOT], [UNDER] ANY
+// CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+// DAMAGES, FOR ANY REASON WHATSOEVER</text>
+
+
+LicenseID: LicenseRef-arm-cortex-mx
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/arm-cortex-mx.yml
+</text>
+ExtractedText: <text>NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
+// NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. [TI] [SHALL] [NOT], [UNDER] ANY
+// CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+// DAMAGES, FOR ANY REASON WHATSOEVER</text>
+
+
+LicenseID: LicenseRef-arm-cortex-mx
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/arm-cortex-mx.yml
+</text>
+ExtractedText: <text>NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
+// NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. [TI] [SHALL] [NOT], [UNDER] ANY
+// CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+// DAMAGES, FOR ANY REASON WHATSOEVER</text>
+
+
+LicenseID: LicenseRef-arm-cortex-mx
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/arm-cortex-mx.yml
+</text>
+ExtractedText: <text>NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
+// NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. [TI] [SHALL] [NOT], [UNDER] ANY
+// CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+// DAMAGES, FOR ANY REASON WHATSOEVER</text>
+
+
+LicenseID: LicenseRef-ti-restricted
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ti-restricted.yml
+</text>
+ExtractedText: <text>Texas Instruments Incorporated.  All rights reserved</text>
+
+
+LicenseID: LicenseRef-ti-restricted
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ti-restricted.yml
+</text>
+ExtractedText: <text>Texas Instruments Incorporated.  All rights reserved</text>
+
+
+LicenseID: LicenseRef-ti-restricted
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ti-restricted.yml
+</text>
+ExtractedText: <text>Texas Instruments Incorporated.  All rights reserved.
+// [Software] [License] [Agreement]
+// 
+// Texas Instruments</text>
+
+
