@@ -4,3 +4,7 @@
 * Robot chassis, motors, Line IR sensors
 * Distance IR sensors
 * Tachometer
+
+Integrated into Remote Controlled/Autonomous Driving (work not pushed here)
+* ROS. Python.
+* Rasp Pi. Pololu IMU. RPLidar A1.
