@@ -5,6 +5,6 @@
 * Distance IR sensors
 * Tachometer
 
-Integrated into Remote Controlled/Autonomous Driving (work not pushed here)
+Integrated into Remote Controlled/Autonomous Driving (not included here)
 * ROS. Python.
 * Rasp Pi. Pololu IMU. RPLidar A1.
